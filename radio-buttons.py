@@ -1,10 +1,10 @@
 # Python 3
 """
-from tkinter import *
+import tkinter as tk
 """
 
 # Python 2
-from Tkinter import *
+import Tkinter as tk
 
 def openfile():
 	print("EEEEEE")
@@ -25,23 +25,23 @@ windowPadY = 15
 windowWidth = 512
 windowHeight = 256
 
-window = Tk()
+window = tk.Tk()
 window.title("Commands")
 window.geometry(str(windowWidth) + "x" + str(windowHeight))
-canvas = Canvas(window)
+canvas = tk.Canvas(window)
 canvas.grid(row=0, column=0, padx=windowPadX, pady=windowPadY)
 
-openButton = Button(canvas, text="Open File", width=buttonWidth, command=openfile)
-openButton.grid(row=1, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=W)
+openButton = tk.Button(canvas, text="Open File", width=buttonWidth, command=openfile)
+openButton.grid(row=1, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=tk.W)
 openButton.configure(background="white")
 
-closeButton = Button(canvas, text="Close File", width=buttonWidth, command=closefile)
-closeButton.grid(row=2, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=W)
+closeButton = tk.Button(canvas, text="Close File", width=buttonWidth, command=closefile)
+closeButton.grid(row=2, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=tk.W)
 closeButton.configure(background="white")
 
-zoomButton = Button(canvas, text="Zoom View", width=buttonWidth, command=zoomview)
-zoomButton.grid(row=3, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=W)
+zoomButton = tk.Button(canvas, text="Zoom View", width=buttonWidth, command=zoomview)
+zoomButton.grid(row=3, column=0, columnspan=buttonColumnSpan, padx=buttonPadX, pady=buttonPadY, sticky=tk.W)
 zoomButton.configure(background="white")
 
-mainloop()
+tk.mainloop()
 

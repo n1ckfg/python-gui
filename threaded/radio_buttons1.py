@@ -1,5 +1,5 @@
-#import tkinter as tk # Python 3
-import Tkinter as tk # Python 2
+import tkinter as tk # Python 3
+#import Tkinter as tk # Python 2
 import threading
 
 # https://stackoverflow.com/questions/459083/how-do-you-run-your-own-code-alongside-tkinters-event-loop

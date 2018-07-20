@@ -1,5 +1,5 @@
-#import tkinter as tk # Python 3
-import Tkinter as tk # Python 2
+import tkinter as tk # Python 3
+#import Tkinter as tk # Python 2
 
 def openfile():
 	print("EEEEEE")

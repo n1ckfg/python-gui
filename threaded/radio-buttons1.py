@@ -1,4 +1,3 @@
-
 #import tkinter as tk # Python 3
 import Tkinter as tk # Python 2
 import threading
@@ -24,7 +23,7 @@ class App(threading.Thread):
 
 
 app = App()
-print('Now we can continue running code while mainloop runs!')
+print("Now we can add more instructions while the gui runs.")
 
-for i in range(100000):
+for i in range(10):
     print(i)

@@ -1,4 +1,4 @@
-** To install Tkinter: **
+<b>To install Tkinter:</b>
 
 Ubuntu:
 <pre>
@@ -19,13 +19,11 @@ Windows:
 Included in python.org Python distribution; run the IDLE editor.
 
 
-* To import Tkinter: *
-Python 2:
+<b>To import Tkinter:</b>
 <pre>
-import Tkinter
+import Tkinter # Python 2
 </pre>
-
-Python 3:
+or
 <pre>
-import tkinter
+import tkinter # Python 3
 </pre>

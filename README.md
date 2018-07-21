@@ -5,13 +5,12 @@ Ubuntu:
 sudo apt-get install python-tk
 sudo apt-get install python3-tk
 
-OS X (requires Homebrew):
-xcode-select --install
-brew install tcl-tk
-brew install python --with-tcl-tk
+OS X:
+Requires Homebrew:
+https://docs.python-guide.org/starting/install3/osx/
 
 Windows:
-(Included in standard Python distribution; run the IDLE editor.)
+Included in python.org Python distribution; run the IDLE editor.
 
 
 * To import Tkinter: *

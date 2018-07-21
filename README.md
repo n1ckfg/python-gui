@@ -1,22 +1,16 @@
-<b>To install Tkinter:</b>
+<b>Easiest ways to install Tkinter:</b>
 
 Ubuntu:
 <pre>
 sudo apt-get install python-tk
+</pre>
+or
+<pre>
 sudo apt-get install python3-tk
 </pre>
 
-OS X:
-<pre>
-xcode-select --install
-brew uninstall python
-brew install python --use-brewed-tk
-</pre>
-More information on Homebrew and Python here:<br>
-https://docs.python-guide.org/starting/install3/osx/
-
-Windows:
-Included in python.org Python distribution; run the IDLE editor.
+Windows:<br>
+Included in the python.org Python distribution's IDLE editor.
 
 
 <b>To import Tkinter:</b>
